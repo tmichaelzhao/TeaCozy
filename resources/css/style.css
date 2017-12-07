@@ -105,3 +105,37 @@
         .featured__tea-gallery__item__text-string {
           text-align: center;
         }
+
+  .locations {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 0 auto;
+    justify-content: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url("./../img/img-locations-background.jpg");
+  }
+
+    .locations__text-string {
+      text-align: center;
+      margin: 0px 0px;
+    }
+
+    .locations__address-container {
+      display: flex;
+      flex-flow: row nowrap;
+      flex: 0 0 auto;
+      justify-content:  center;
+    }
+
+      .locations__address-container__address-block {
+        width: 300px;
+        background-color: black;
+        opacity: 1;
+        margin: 15px 10px;
+      }
+
+        .locations__address-container__address-block__text-string {
+          text-align: center;
+          margin: 30px 0px;
+        }
