@@ -16,21 +16,49 @@
   border-bottom: 1px solid seashell;
 }
 
-.header__logo {
-  height: 50px;
-  margin-left: 10px;
+  .header__logo {
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .header__nav-panel {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .header__nav-panel__nav-button {
+    margin: 0px 10px;
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+  }
+
+.main {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  top: 70px;
 }
 
-nav {
-  margin-left: auto;
-  margin-right: 10px;
+.mission {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("./../img/img-mission-background.jpg");
 }
 
-.header__nav-panel__nav-button {
-  margin: 0px 10px;
-  font-family: helvetica;
-  font-size: 22px;
-  color: seashell;
+.mission__overlay-text {
   background-color: black;
-  opacity: 0.9;
+  width: 100%;
+}
+
+.mission__overlay-text__text-string {
+  text-align: center;
+  margin: 15px 0px;
 }
